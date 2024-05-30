@@ -1,6 +1,11 @@
+import PageHeader from "./layouts/PageHeader"
+
 const App = () => {
   return(
-    <h1>YouTube</h1>
+    <div className="max-h-screen flex flex-col">
+      <PageHeader />
+      <div>2</div>
+    </div>
   )
 }
 
